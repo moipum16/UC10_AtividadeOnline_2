@@ -1,0 +1,14 @@
+<form class="center2">
+  <div class="spacer"></div>
+  <input type="text" placeholder="Nome" id="login00" class="GenericButton3">
+  <div class="spacer"></div>
+  <input type="email" placeholder="Email" id="login0" class="GenericButton3" name="email" [(ngModel)]="userModel.email">
+  <div class="spacer"></div>
+  <input type="password" placeholder="Senha" id="senha00" class="GenericButton3" name="password" [(ngModel)]="userModel.password">
+  <div class="spacer"></div>
+  <input type="password" placeholder="Confirmar" id="senha0" class="GenericButton3">
+  <div class="spacer"></div>
+  <input type="submit" class="GenericButton" id="enviar">
+  <div class="spacer"></div>
+  <button type="button" id="logar" class="GenericButton" routerLink="../login">Já possui cadastro? Entre!</button>
+</form>

@@ -1,0 +1,9 @@
+<form class="center2" (ngSubmit)="receberDados()">
+  <div class="spacer"></div>
+  <input type="email" placeholder="Login" id="login" class="GenericButton3" name="email" [(ngModel)]="userModel.email">
+  <div class="spacer"></div>
+  <input type="password" placeholder="Senha" id="senha" class="GenericButton3" name="password" [(ngModel)]="userModel.password">
+  <div class="spacer"></div>
+  <input type="submit" class="GenericButton" id="enviar">
+  <div class="spacer"></div>
+</form>
